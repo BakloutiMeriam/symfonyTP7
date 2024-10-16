@@ -1,3 +1,27 @@
 homepage:
  path: /
  controller: App\Controller\IndexController::home
+article_save:
+  path: /article/save
+  controller: App\Controller\IndexController::save
+article_new:
+  path: /article/new
+  controller: App\Controller\IndexController::new
+article_show:
+  path: /article/{id}
+  controller: App\Controller\IndexController::show
+article_edit:
+  path: /article/edit/{id}
+  controller: App\Controller\IndexController::edit
+article_delete:
+  path: /article/delete/{id}
+  controller: App\Controller\IndexController::delete
+category_new:
+  path: /category/newCat
+  controller: App\Controller\IndexController::newCategory
+article_par_cat:
+  path: /article/articlesParCategory
+  controller: App\Controller\IndexController::articlesParCategorie
+article_par_prix:
+  path: /article/articleParPrix
+  controller: App\Controller\IndexController::articlesParPrix
